@@ -65,7 +65,7 @@ public class MessagesListAdapter<MESSAGE extends IMessage>
     private OnMessageLongClickListener<MESSAGE> onMessageLongClickListener;
     private OnMessageViewLongClickListener<MESSAGE> onMessageViewLongClickListener;
     private ImageLoader imageLoader;
-    private RecyclerView.LayoutManager layoutManager;
+    protected RecyclerView.LayoutManager layoutManager;
     private MessagesListStyle messagesListStyle;
     private DateFormatter.Formatter dateHeadersFormatter;
     private SparseArray<OnMessageViewClickListener> viewClickListenersArray = new SparseArray<>();
